@@ -1,16 +1,5 @@
 // -----jQuery-----
 
-// $(document).ready(function() {
-//     //-----declare variables-----
-
-//     var crystalValues = {};
-//     crystalValues[1] = Math.floor(Math.random() * 100);
-//     crystalValues[2] = Math.floor(Math.random() * 100);
-//     crystalValues[3] = Math.floor(Math.random() * 100);
-//     crystalValues[4] = Math.floor(Math.random() * 100);
-    
-
-// })
 $( document ).ready(function(){
     var Random=Math.floor(Math.random()*101+19);
     // Selects a random number to be shown at the start of the game

@@ -1,13 +1,25 @@
+body {
+    background-color: salmon;
+
+}
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: red;
+    color: salmon;
     font-size: 80px;
 }
-
+p {
+    color: salmon;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    color:bisque;
     font-size: 40px;
 }
 
-p {}
+div.header, div.info {
+    background-color: bisque;
+    width: 75%;
+}
+
