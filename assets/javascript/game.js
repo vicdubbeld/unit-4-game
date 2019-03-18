@@ -25,7 +25,7 @@ $(document).ready(function(){
 
   //resets the game
   function reset(){
-        Random=Math.floor(Math.random()*120);
+        Random=Math.floor(Math.random()*101+19);
         console.log(Random)
         $('#randomNumber').text(Random);
         num1= Math.floor(Math.random()*12);
