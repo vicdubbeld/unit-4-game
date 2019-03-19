@@ -50,7 +50,7 @@ $(document).ready(function(){
     $('#numberLosses').text(losses);
     reset()
   }
-  //sets up click for jewels
+  //sets up click for shrooms
     $('#image1').on ('click', function(){
       userTotal = userTotal + num1;
       console.log("New userTotal= " + userTotal);
@@ -97,7 +97,8 @@ $(document).ready(function(){
           else if ( userTotal > Random){
             loser();
           }
-    });   
+    });  
+    
   }); 
 
   
